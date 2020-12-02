@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'learning-material-app';
+
+  displayDialog = true;
+  constructor() {}
+
+  isTrue(): boolean {
+    return 1 === 1;
+  }
 }
